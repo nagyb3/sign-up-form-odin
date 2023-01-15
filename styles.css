@@ -19,9 +19,10 @@ body {
 }
 
 .right {
-    background-color: blue;
+    /*background-color: blue;*/
     height: 100vh;
     width: 65%;
+    background: #f8e9c7;
 }
 
 .logo-bg {
@@ -45,4 +46,75 @@ body {
 #odin-logo {
     height: 100px;
     width: auto;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+p.intro {
+    font-weight: 800;
+    margin-left: 10vw;
+    margin-top: 15vh;
+    font-size: 1.2rem;
+    margin-bottom: 5vh;
+    width: 800px;
+}
+
+.whitebg {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 50px 20px;
+    padding-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+button[type="submit"] {
+    background-color: #1e751e;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    /*font-weight: 800;*/
+    margin: 30px;
+}
+
+p.have-account-question {
+    padding-left: 30px;
+}
+
+a {
+    color: #219121;
+}
+
+td > * {
+    display: block;
+}
+
+td {
+    padding: 5px;
+}
+
+table.form {
+    width: 400px;
+}
+
+/*TODO: fix background positioning*/
+/*TODO: first p on right side*/
+
+input {
+    font-size: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.whitebg > h2 {
+    margin-bottom: 20px;
+    padding-left: 10px;
 }
