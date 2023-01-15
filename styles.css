@@ -89,7 +89,7 @@ p.have-account-question {
 }
 
 a {
-    color: #219121;
+    color: #31a231;
 }
 
 td > * {
@@ -117,4 +117,18 @@ input {
 .whitebg > h2 {
     margin-bottom: 20px;
     padding-left: 10px;
+}
+
+div.photo-credit {
+    width: 35%;
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: white;
+}
+
+.left div.photo-credit a {
+    color: #58bd58;
 }
